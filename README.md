@@ -18,6 +18,7 @@
 - Download to see everything else:)**
 
 ## **Dependencies:**
+- Make the paths right!
 - [Roald Modal Handler](https://github.com/RoaldDahl/Modal-Handler)
 - [Roald Button Handler](https://github.com/RoaldDahl/Button-Handler)
 - discord.js@14.3.0
