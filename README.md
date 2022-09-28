@@ -9,14 +9,35 @@
 [![stars](https://img.shields.io/github/stars/duckodas?color=009F81&label=stars&style=for-the-badge)](https://github.com/DuckoDas/DJS-Ticket-System-v14)
 [![followers](https://img.shields.io/github/followers/DuckoDas?color=009F81&style=for-the-badge)](https://github.com/DuckoDas/)
 
-# This system is not releated to the old [ticket system](https://github.com/DuckoDas/djs-ticket-system)!
-
 </div>
 <hr>
+
+## **Features:**
+- Advanced Ticket System with buttons, transcripts and a lot more**
+- Categories is Archived, Closed, and Open**
+- Download to see everything else:)**
 
 ## **Dependencies:**
 - [Roald Modal Handler](https://github.com/RoaldDahl/Modal-Handler)
 - [Roald Button Handler](https://github.com/RoaldDahl/Button-Handler)
 - discord.js@14.3.0
 - discord-html-transcripts
-- mongoose
+- [MongoDB Database (FREE)](https://www.mongodb.com/)
+
+## **Database Connection:**
+```js
+const { MongoDB } = require("MONGODB URL");
+const { connect } = require("mongoose");
+
+module.exports = {
+  name: "ready",
+  async execute(client) {
+    connect(MongoDB).then(() => {
+        console.log(`Mongoose Connected`);
+    });
+  },
+};
+```
+
+## **Credits:**
+- None:/
